@@ -1,0 +1,17 @@
+### findALL
+GET http://localhost:3000/items
+### create
+POST http://localhost:3000/items
+{
+    "id": "test1",
+    "name": "PC1",
+    "price": "50000",
+    "description": "very good",
+    "status": "ON_SALE"
+}
+### findById
+GET http://localhost:3000/items/test1
+### Update
+PATCH http://localhost:3000/items/test1
+###
+DELETE http://localhost:3000/items/test1
